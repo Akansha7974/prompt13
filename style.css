@@ -7,3 +7,69 @@ html,body{
     height: 100%;
     width: 100%;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #82bab5;
+}
+div{
+    height: 85%;
+    width: 30%;
+    background-color: #82bab5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 9px solid #eadab9 ;
+}
+div h4{
+    text-align: center;
+    padding: 20px;
+    color: #eadab9;
+    font-size: 18px;
+}
+div h2{
+    text-align: center;
+    color: #eadab9;
+    font-size: 42px;
+    font-weight: 800;
+}
+div h1{
+    text-align: center;
+    color: #eadab9;
+    font-size: 48px;
+    font-weight: 800;
+}
+hr{
+    margin: 20px;
+    border: 3px solid  #eadab9 ;
+}
+div img{
+    height: 200px;
+    width: 380px;
+    padding-left:60px;
+}
+.content{
+    height: 26%;
+    width: 74%;
+    border: none;
+    background-color: #eadab9;
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    border-radius: 20px;
+    text-align: center;
+}
+.content h5{
+    font-size: 14px;
+    color: #023d49;
+    font-weight: 900;
+}
+.content h3{
+    font-size: 19px;
+    color: #5b7a82;
+}
+.content h6{
+    font-size: 24px;
+    font-weight: 900;
+    color:#65878e;
+}
